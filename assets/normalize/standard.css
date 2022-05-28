@@ -1,0 +1,122 @@
+/* ======== Fonts ======== */
+
+@font-face {
+    font-family: roboto300;
+    src: local('sans-serif'), url(../fonts/Roboto-Thin.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: roboto400;
+    src: local('sans-serif'), url(../fonts/Roboto-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: roboto500;
+    src: local('sans-serif'), url(../fonts/Roboto-Medium.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: roboto700;
+    src: local('sans-serif'), url(../fonts/Roboto-Bold.ttf);
+    font-display: swap;
+}
+
+
+/* ======== Colors ======== */
+
+:root {
+    --primary: #AA3600;
+    --on-primary: #ffffff;
+    --on-background: #1F1A1B;
+    --on-surface: #1F1A1B;
+    --shadow: #000000;
+}
+
+
+/* ======== Styles ======== */
+
+* {
+    color: #ffffff;
+    font-family: roboto400;
+    scroll-behavior: smooth;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: #111111;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+    /* overflow-x: hidden; */
+}
+
+section {
+    margin-inline: auto;
+    padding-inline: 120px;
+    max-width: 1440px;
+    padding-top: 80px;
+}
+
+
+/* top of the page, no need for padding-top */
+
+section:first-child {
+    padding-top: 0;
+}
+
+section:nth-child(5) {
+    padding-inline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-title {
+    font-family: roboto400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.section-title:before {
+    content: "";
+    display: inline-block;
+    width: 160px;
+    vertical-align: middle;
+    border-bottom: 4px solid #EE7846;
+    border-radius: 2px;
+    margin-right: 48px;
+}
+
+.section-button {
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    padding: 12px 24px;
+    background: linear-gradient(90deg, #DC5D27 7.89%, #D88D2B 122.81%);
+    border-radius: 52px;
+    font-family: roboto400;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    transition: all 0.2s;
+}
+
+.section-button:hover {
+    background: linear-gradient(83.88deg, #C5450F 11.23%, #C64810 71.96%, #DB681C 108.43%, #D87E2B 164.65%);
+    box-shadow: 0px 3px 26px rgba(241, 77, 8, 0.35);
+    border-color: none;
+    transform: translateY(-2px);
+}
+
+.section-button:active {
+    box-shadow: none;
+    transform: translateY(3px);
+}

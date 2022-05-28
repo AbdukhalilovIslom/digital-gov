@@ -1,0 +1,182 @@
+/* ======== Decorations ======== */
+
+.decoration-one {
+    position: relative;
+    top: -750px;
+    right: -1010px;
+}
+
+.decoration-two {
+    position: relative;
+    top: -510px;
+    right: -870px;
+}
+
+.decoration-three {
+    position: relative;
+    top: -700px;
+    right: -550px;
+    z-index: 2;
+}
+
+.decoration-four {
+    position: relative;
+    top: -700px;
+    right: -512px;
+}
+
+.decoration-five {
+    position: relative;
+    top: -740px;
+    left: -45px;
+}
+
+.decoration-six {
+    position: relative;
+    top: -410px;
+    left: -235px;
+}
+
+.decoration-ten {
+    position: relative;
+    top: -790px;
+    left: -200px;
+}
+
+.decoration-eleven {
+    position: relative;
+    top: -806px;
+    left: -248px;
+}
+
+.decoration-seven {
+    position: relative;
+    top: -580px;
+    left: 1300px;
+}
+
+.decoration-eight {
+    position: relative;
+    top: -221px;
+    left: 600px;
+}
+
+.decoration-nine {
+    position: relative;
+    top: -645px;
+    left: -240px;
+}
+
+.decoration-twelve {
+    display: grid;
+    position: relative;
+    top: -868px;
+    right: -950px;
+}
+
+@media only screen and (max-width: 1500px) {
+    .decoration-one {
+        right: -906px;
+    }
+    .decoration-two {
+        top: -400px;
+        right: -642px;
+    }
+    .decoration-seven {
+        position: relative;
+        top: -652px;
+        left: 882px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .decoration-one {
+        right: -670px;
+    }
+    .decoration-six {
+        left: -400px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .decoration-one {
+        right: -450px;
+    }
+    .decoration-two {
+        top: -327px;
+        right: -248px;
+    }
+    .decoration-three {
+        top: -541px;
+        left: -430px;
+    }
+    .decoration-four {
+        top: -533px;
+        left: -402px;
+    }
+    .decoration-seven {
+        top: -606px;
+        left: 540px;
+    }
+    .decoration-eight {
+        top: -251px;
+        left: 378px;
+    }
+    .decoration-ten {
+        top: -807px;
+        left: -433px;
+    }
+    .decoration-eleven {
+        top: -823px;
+        left: -479px;
+    }
+    .about-img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .decoration-one {
+        top: -670px;
+        right: 6px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .decoration-two {
+        top: -446px;
+        right: -156px;
+    }
+    .decoration-seven {
+        top: -791px;
+        left: 267px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .decoration-two {
+        top: -481px;
+        right: -72px;
+    }
+    .decoration-eight {
+        top: -210px;
+        left: 237px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .decoration-two {
+        top: -238px;
+        right: -21px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .decoration-eight {
+        top: -142px;
+        left: 157px;
+    }
+    .decoration-seven {
+        left: 189px;
+    }
+}
